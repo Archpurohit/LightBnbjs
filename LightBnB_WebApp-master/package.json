@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "sass --watch sass/main.scss:public/styles/main.css",
     "local": "npx nodemon -L server/server",
-    "start": "node server/server"
+    "start": "./node_modules/.bin/nodemon -L express_server.js "
   },
   "keywords": [],
   "author": "",
